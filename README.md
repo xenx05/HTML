@@ -3,7 +3,7 @@ html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi Pagina de Hola Mundo</title>title>
+  <title>Mi Pagina de Hola Mundo</title>
 </head>
 <body>
   <h1>¡Hola, Mundo!</title>
