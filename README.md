@@ -1,51 +1,218 @@
 # HTML
 html
 <!DOCTYPE html>
-<html>
+<html lang="ca">
 <head>
-  <title>Mi Pagina de Hola Mundo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pàgina responsive d'exemple</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004466;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #006699;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      flex-wrap: wrap; /* fa que en pantalles xicotetes els enllaços baixen */
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #004466;
+      padding-bottom: 5px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px 0;
+    }
+
+    table, th, td {
+      border: 1px solid #004466;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #006699;
+      color: white;
+    }
+
+    form {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f5f5f5;
+      max-width: 100%;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #004466;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #006699;
+    }
+
+    footer {
+      background-color: #004466;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    /* --- Responsive --- */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      table, th, td {
+        font-size: 14px;
+      }
+
+      main {
+        padding: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 22px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+
+      table, th, td {
+        font-size: 12px;
+      }
+
+      button {
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>¡Hola, Mundo!</title>
-  <p>Este es un ejemplo basico de una pagina web.</p>
-  </body>
-  </html>
-<!DOCTYPE HTML>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La meua Pàgina Web</title>
-</head>
-<body>
+  <!-- Capçalera -->
+  <header>
+    <h1>Benvinguts a la meua pàgina web</h1>
+    <p>Versió responsive amb HTML i CSS</p>
+  </header>
 
-    <header>
-        <h1>Benvinguts a La meua Pàgina Web</h1>
-        <p>Esta és la meua primera pàgina de llenguatge de marques.</p>
-    </header>
+  <!-- Menú de navegació -->
+  <nav>
+    <a href="#">Inici</a>
+    <a href="#">Sobre mi</a>
+    <a href="#">Projectes</a>
+    <a href="#">Contacte</a>
+  </nav>
 
-    <main>
-        <h2>Sobre mi</h2>
-        <p>Soc estudiant del IES Porçons.</p>
-    </main>
+  <!-- Contingut principal -->
+  <main>
+    <h2>Secció principal</h2>
+    <p>Aquesta és la secció principal de la pàgina. Pots afegir text, imatges, llistes, taules i formularis.</p>
 
-    <section>
-        <h2>Els meus punts fort com a estudiant</h2>
-        <ol type="A">
-            <li>Responsabilitat i compromís amb les tasques</li>
-            <li>Capacitat per treballar en equip</li>
-            <li>Motivació per aprendre i millorar constantment</li>
-        </ol>
-        <p><a href="https://www.exemple.com" target="_blank">Veure més</a></p>
-    </section>
+    <h3>Llista d’exemple:</h3>
+    <ul>
+      <li>Element 1</li>
+      <li>Element 2</li>
+      <li>Element 3</li>
+    </ul>
 
-    <footer>
-        <p>
-            <a href="mailto:info@elteunom.com">Enviar correu electrònic</a> |
-            <a href="tel:+1234567890">Telefonar</a><br>
-            &copy; El Teu Nom – Tots els drets reservats
-        </p>
-    </footer>
+    <h3>Taula d’exemple:</h3>
+    <table>
+      <tr>
+        <th>Nom</th>
+        <th>Edat</th>
+        <th>Ciutat</th>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>25</td>
+        <td>València</td>
+      </tr>
+      <tr>
+        <td>Joan</td>
+        <td>30</td>
+        <td>Castelló</td>
+      </tr>
+      <tr>
+        <td>Laura</td>
+        <td>28</td>
+        <td>Alacant</td>
+      </tr>
+    </table>
 
+    <h3>Formulari de contacte:</h3>
+    <form>
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Correu electrònic:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="missatge">Missatge:</label>
+      <textarea id="missatge" name="missatge" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <!-- Peu de pàgina -->
+  <footer>
+    <p>&copy; 2025 — Pàgina d'exemple responsive creada en HTML i CSS</p>
+  </footer>
 </body>
 </html>
