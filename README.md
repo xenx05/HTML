@@ -17,7 +17,7 @@
   </main>
 
   <section>
-    <h2>Els meus punts fort com a estudiant</h2>
+    <h2>Atributs com a estudiant</h2>
     <ol type="a">
       <li>Responsabie i atento.</li>
       <li>Treball en equip .</li>
