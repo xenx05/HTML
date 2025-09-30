@@ -13,7 +13,7 @@
 
   <main>
     <h2>Sobre mi</h2>
-    <p>Soc estudiant del IES Porçons.</p>
+    <p>Estudiant en el IES Porcons, grau superior 1r ASIX.</p>
   </main>
 
   <section>
