@@ -31,7 +31,7 @@
       <a href="xenherjov@alu.edu.gva.es">Enviar correu electrònic</a> |
       <a href="tel:+645655012">Telefonar</a>
     </p>
-    <p>&#169; Xenxo Hervás Jover. Tots els drets reservats.</p>
+    <p>&#169; Xenxo Hervás Jover.</p>
   </footer>
 </body>
 </HTML>
