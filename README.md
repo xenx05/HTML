@@ -1,84 +1,37 @@
-<!DOCTYPE html>
-<html lang="ca">
+<!DOCTYPE HTML>
+<HTML lang="és">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pàgina d'exemple</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #004466;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      background-color: #006699;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    main {
-      padding: 20px;
-    }
-
-    footer {
-      background-color: #004466;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
-    }
-  </style>
+  <title>La meua Pàgina Web</title>
 </head>
 <body>
-  <!-- Capçalera -->
   <header>
-    <h1>Benvinguts a la meua pàgina web</h1>
-    <p>Exemple d’estructura bàsica en HTML i CSS</p>
+    <h1>Benvinguts a La meua Pàgina Web</h1>
+    <p>Esta és la meua primera pàgina de llenguatge de marques.</p>
   </header>
 
-  <!-- Menú de navegació -->
-  <nav>
-    <a href="#">Inici</a>
-    <a href="#">Sobre mi</a>
-    <a href="#">Projectes</a>
-    <a href="#">Contacte</a>
-  </nav>
-
-  <!-- Contingut principal -->
   <main>
-    <h2>Secció principal</h2>
-    <p>Aquesta és la secció principal de la pàgina. Pots afegir text, imatges, llistes o fins i tot formularis.</p>
-
-    <h3>Llista d’exemple:</h3>
-    <ul>
-      <li>Element 1</li>
-      <li>Element 2</li>
-      <li>Element 3</li>
-    </ul>
+    <h2>Sobre mi</h2>
+    <p>Soc estudiant del IES Porçons.</p>
   </main>
 
-  <!-- Peu de pàgina -->
+  <section>
+    <h2>Els meus punts fort com a estudiant</h2>
+    <ol type="a">
+      <li>Responsabilitat i organització: compleixo terminis i gestiono bé les meues tasques.</li>
+      <li>Treball en equip i comunicació: col·labore eficaçment amb companys i explic els meus punts amb claredat.</li>
+      <li>Aprenentatge ràpid i adaptabilitat: assimile informació nova amb facilitat i m'adapte a canvis.</li>
+    </ol>
+    <p><a href="https://www.exemple.com" target="_blank" rel="noopener noreferrer">Veure més »</a></p>
+  </section>
+
   <footer>
-    <p>&copy; 2025 — Pàgina d'exemple creada en HTML i CSS</p>
+    <p>
+      <a href="mailto:info@elteunom.com">Enviar correu electrònic</a> |
+      <a href="tel:+1234567890">Telefonar</a>
+    </p>
+    <p>&#169; El teu Nom. Tots els drets reservats.</p>
   </footer>
 </body>
-</html>
-
-
-
+</HTML>
