@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Benvinguts a La meua Pàgina Web</h1>
+    <h1>Pàgina Web de Xenxo Hervás Jover</h1>
     <p>Esta és la meua primera pàgina de llenguatge de marques.</p>
   </header>
 
@@ -19,19 +19,19 @@
   <section>
     <h2>Els meus punts fort com a estudiant</h2>
     <ol type="a">
-      <li>Responsabilitat i organització: compleixo terminis i gestiono bé les meues tasques.</li>
-      <li>Treball en equip i comunicació: col·labore eficaçment amb companys i explic els meus punts amb claredat.</li>
-      <li>Aprenentatge ràpid i adaptabilitat: assimile informació nova amb facilitat i m'adapte a canvis.</li>
+      <li>Responsabie i atento.</li>
+      <li>Treball en equip .</li>
+      <li>Aprenentatge i adaptabiltat rápida</li>
     </ol>
     <p><a href="https://www.exemple.com" target="_blank" rel="noopener noreferrer">Veure més »</a></p>
   </section>
 
   <footer>
     <p>
-      <a href="mailto:info@elteunom.com">Enviar correu electrònic</a> |
-      <a href="tel:+1234567890">Telefonar</a>
+      <a href="xenherjov@alu.edu.gva.es">Enviar correu electrònic</a> |
+      <a href="tel:+645655012">Telefonar</a>
     </p>
-    <p>&#169; El teu Nom. Tots els drets reservats.</p>
+    <p>&#169; Xenxo Hervás Jover. Tots els drets reservats.</p>
   </footer>
 </body>
 </HTML>
