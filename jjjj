@@ -2,48 +2,48 @@
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <title>Taula de contingut del llibre</title>
+    <title>Contingut del Llibre</title>
     <style>
         table {
-            width: 70%;
             border-collapse: collapse;
+            width: 70%;
             margin: 20px auto;
             text-align: left;
         }
         caption {
-            caption-side: top;
+            font-size: 1.4em;
             font-weight: bold;
-            font-size: 1.2em;
-            padding: 10px;
+            padding: 8px;
         }
         th, td {
             border: 1px solid #333;
             padding: 8px;
         }
         thead {
-            background-color: #dbeafe;
+            background-color: #e0f2fe;
         }
         tfoot {
             background-color: #f3f4f6;
+            text-align: center;
             font-style: italic;
         }
         colgroup col:first-child {
-            background-color: #fef3c7;
+            background-color: #fff7ed;
         }
         colgroup col:nth-child(2) {
-            background-color: #e0f2fe;
+            background-color: #f0f9ff;
         }
         colgroup col:nth-child(3) {
-            background-color: #dcfce7;
+            background-color: #f0fdf4;
         }
     </style>
 </head>
 <body>
 
     <table>
-        <caption>Taula de contingut del llibre</caption>
+        <caption>Taula de Contingut del Llibre</caption>
 
-        <!-- Definim els estils de columnes -->
+        <!-- Definició de columnes -->
         <colgroup>
             <col span="1">
             <col span="1">
@@ -70,34 +70,44 @@
                 <td>1–5</td>
             </tr>
             <tr>
-                <td>Conceptes bàsics</td>
-                <td>6–10</td>
+                <td>Els objectius de l’autor</td>
+                <td>6–8</td>
             </tr>
 
             <tr>
                 <td rowspan="3">2</td>
                 <td>Fonaments teòrics</td>
-                <td>11–18</td>
+                <td>9–14</td>
             </tr>
             <tr>
                 <td>Aplicacions pràctiques</td>
-                <td>19–25</td>
+                <td>15–20</td>
             </tr>
             <tr>
-                <td>Resum del capítol</td>
-                <td>26–28</td>
+                <td>Resum i exercicis</td>
+                <td>21–23</td>
             </tr>
 
             <tr>
-                <td>3</td>
-                <td>Casos d’estudi</td>
-                <td>29–35</td>
+                <td rowspan="2">3</td>
+                <td>Estudis de cas</td>
+                <td>24–29</td>
+            </tr>
+            <tr>
+                <td>Anàlisi de resultats</td>
+                <td>30–33</td>
             </tr>
 
             <tr>
                 <td>4</td>
-                <td>Conclusió i annexos</td>
-                <td>36–40</td>
+                <td>Conclusió i recomanacions</td>
+                <td>34–37</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Annexos i bibliografia</td>
+                <td>38–40</td>
             </tr>
         </tbody>
 
@@ -106,8 +116,4 @@
             <tr>
                 <td colspan="3">Fi de la taula de contingut</td>
             </tr>
-        </tfoot>
-    </table>
-
-</body>
-</html>
+        <
